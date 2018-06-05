@@ -79,7 +79,7 @@ private final String areaId = "ag9ifmdsb2JhbGNpdHktMjByEQsSBEFyZWEYgICAgM7fhwoM"
             JSONObject jsonObject = jsonArray.getJSONObject(i);
             String brandName = jsonObject.getString("brandName");
             Brand brand = new Brand(brandName);
-            brand.setmBrandName(brandName);
+            brand.setBrandName(brandName);
             items.add(brand);
 
         }
